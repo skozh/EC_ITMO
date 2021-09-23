@@ -90,7 +90,7 @@ if __name__ == "__main__":
         return res,
 
 
-    dimension = 50
+    dimension = 100
     pop_size = 100
     iterations = 1000
     pso_exp = PSOAlg(pop_size, iterations, dimension, function)

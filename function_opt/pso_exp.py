@@ -1,11 +1,7 @@
-import operator
-import random
-import math
 
 import numpy as np
 import numpy.random as rnd
 from deap import base
-from deap import benchmarks
 from deap import creator
 from deap import tools
 from draw_log import *

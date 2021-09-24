@@ -1,17 +1,7 @@
-import operator
-import random
-
-import numpy
-import math
-
-from deap import base
-from deap import benchmarks
-from deap import creator
-from deap import tools
-from draw_log import draw_log, draw_logs
+from draw_log import draw_logs
+from functions import rastrigin
 from ga_exp import *
 from pso_exp import *
-from functions import rastrigin
 
 
 if __name__ == "__main__":
@@ -27,4 +17,3 @@ if __name__ == "__main__":
     pso = PSOAlg(pop_size, iterations, dimension, function)
     pop, logbook, best = pso.run()
     draw_logs(log, logbook, "ga", "pso")
-

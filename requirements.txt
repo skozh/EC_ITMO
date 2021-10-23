@@ -1,6 +1,7 @@
 absl-py==0.15.0
 astunparse==1.6.3
 backcall==0.2.0
+Box2D==2.3.10
 cachetools==4.2.4
 certifi==2021.10.8
 cffi==1.15.0
